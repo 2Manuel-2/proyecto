@@ -120,3 +120,8 @@
     transform: translateY(0px);
     opacity: 1;
 }
+
+.footer{
+    width: 100% !important;
+    height: 270px;
+}
