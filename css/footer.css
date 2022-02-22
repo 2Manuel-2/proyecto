@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 footer{
     width: 100%;
     background: #202020;
     color: white;   
-    margin-top: 2.2%;
+    margin-top: 2%;
+    box-sizing: border-box;
     
 }
 /*Propiedades de todo el contenido del footer un width maximo de 1200 px por cala columna con un relleno de 40 px para hacer un poco de espaciado*/
@@ -18,6 +25,8 @@ footer{
 .colum1{
 	/*Delimita el maximo de espacio que agarrara el texto es decir cuando llega a 400px habra un tipo de salto de linea*/
     max-width: 400px;
+    box-sizing: border-box;
+
 }
 
 .colum1 h1{
@@ -37,7 +46,8 @@ footer{
 
 .container-footer{/*Se actualiza el bg de el espacio donde estan los terminos y condiciones y derechos reservados*/
     width: 100%;  
-    
+    box-sizing: border-box;
+
     background: #101010;/*Color gris tonalidad oscura*/
 }
 /*Se ponen todos los elementos del subfooter de terminos y condiciones con sus respectivas propiedades*/
@@ -49,7 +59,9 @@ footer{
     /*Se deja un espacio entre los dos textos*/
     justify-content: space-between;  
     /*Total del relleno del subfooter*/
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+
 }
 
 /*Se elminan todos los hipervinculos o el subrayado de los hipervinculos*/
